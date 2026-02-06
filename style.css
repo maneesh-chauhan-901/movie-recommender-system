@@ -1,0 +1,99 @@
+
+.block-container {
+    padding-top: 2.5rem !important;
+    padding-bottom: 2rem !important;
+    max-width: 96% !important;
+}
+
+
+.stApp {
+    background-color: #000000;
+}
+
+
+h1 {
+    font-size: 4.2rem !important;
+    font-weight: 800 !important;
+    letter-spacing: 1.8px;
+    line-height: 1.25;
+    margin-bottom: 0.8rem !important;
+    color: #ffffff !important;
+    text-align: center;
+}
+
+p {
+    font-size: 1.45rem !important;
+    line-height: 1.9 !important;
+    letter-spacing: 0.9px;
+    font-weight: 500;
+    color: #ffffff !important;
+    text-align: center;
+    margin-bottom: 1.4rem !important;
+}
+
+/* ===== SECTION HEADINGS ===== */
+h2 {
+    font-size: 2.4rem !important;
+    font-weight: 700 !important;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    margin-top: 1.2rem !important;
+    margin-bottom: 0.8rem !important;
+    color: #ffffff !important;
+}
+
+/* ===== LABELS ===== */
+label {
+    font-size: 1.25rem !important;
+    font-weight: 600;
+    letter-spacing: 0.7px;
+    line-height: 1.6;
+    color: #ffffff !important;
+}
+
+
+.stButton > button {
+    font-size: 1.25rem !important;
+    padding: 0.6rem 1.8rem !important;
+    font-weight: 600;
+    letter-spacing: 0.6px;
+    border: 1.5px solid #e50914;
+    background-color: black;
+    color: white;
+}
+
+
+.movie-card {
+    background-color: #111;
+    padding: 12px;
+    border-radius: 12px;
+    margin-bottom: 14px;
+    transition: 0.25s;
+}
+
+.movie-card:hover {
+    transform: scale(1.04);
+}
+
+/* ===== SELECTED MOVIE ===== */
+.movie-card.selected {
+    border: 2px solid #e50914;
+    box-shadow: 0 0 18px rgba(229,9,20,0.65);
+}
+
+
+a.stLinkButton {
+    background-color: #1DB954;
+    color: white !important;
+    padding: 7px 12px;
+    border-radius: 7px;
+    font-size: 0.95rem;
+    letter-spacing: 0.4px;
+    margin: 4px 3px;
+    text-decoration: none;
+}
+
+a.stLinkButton:hover {
+    background-color: #222;
+    color: #e50914 !important;
+}
